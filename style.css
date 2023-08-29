@@ -1,0 +1,28 @@
+#button1 {
+  /* border-radius: 0; */
+  border: 3px solid #0f0;
+  padding: 16px 30px;
+  font-size: larger;
+  color: #fff;
+  background: #00f;
+}
+.link1 {
+  border: 3px solid #800080;
+}
+.orangepad {
+  border: 10px solid #ffa500;
+  padding: 40px;
+}
+.highlight {
+  color: #f00;
+}
+#photobucket ul {
+  list-style-type: none;
+}
+#photobucket li img {
+  height: 40%;
+  width: 40%;
+  border: 10px solid #800080;
+  margin: 30px;
+  float: left;
+}
