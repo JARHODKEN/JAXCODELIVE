@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
 #button1 {
   /* border-radius: 0; */
   border: 3px solid #0f0;
@@ -25,4 +30,19 @@
   border: 10px solid #800080;
   margin: 30px;
   float: left;
+}
+h1 {
+  padding: 50px;
+}
+ul {
+  list-style: none;
+  font-size: 28px;
+}
+a {
+  text-decoration: none;
+  color: blue;
+}
+a:hover,
+a:focus-visible {
+  color: purple;
 }

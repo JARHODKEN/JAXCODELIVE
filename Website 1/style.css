@@ -45,11 +45,17 @@ button {
   font-size: inherit;
   font-family: inherit;
 }
+.title {
+  font-weight: bold;
+  font-size: 28px;
+}
 .wrapper {
   /* max-width: 70rem;
   padding-inline: 24px; */
-  width: min(100% - 48px, 70rem);
-  margin-inline: auto;
+  /* width: min(100% - 48px, 70rem); */
+  /* margin-inline: auto; */
+  padding: 2rem;
+  /* display: flex; */
 }
 header {
   /* border: 2px solid red; */
@@ -71,28 +77,51 @@ ul {
   padding: 0;
   align-items: center;
 }
-li:last-child a {
+/* li:last-child a {
   color: #fff;
   background-color: blue;
   padding: 10px 16px;
   border-radius: 10px;
-}
-li:last-child a:hover,
+} */
+/* li:last-child a:hover,
 li:last-child a:focus {
   background-color: magenta;
   text-decoration: none;
-}
+} */
 #banner {
-  padding-block: 200px;
+  padding-block: 140px;
   background-color: lightskyblue;
   /* background-image: url(images/redleaves.jpg);
   background-size: cover; */
-
+  /* display: flex; */
+  /* flex-wrap: wrap;
+  flex-direction: column;
+  align-items: stretch; */
   /* background: linear-gradient(180deg, blue, red); 
   use background  or background-image */
 }
+
+/* This is an old trick I learned to avoid using <br> in my html back in 2012 */
+/* Couldn't for the life of me find out how to do this natively with Flex... */
+.break {
+  min-width: 100%;
+  height: 0;
+}
+
+.float {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 0 0;
+}
 #banner .wrapper {
   text-align: center;
+}
+#banner h1 {
+  padding: 0 0 20px 0;
+}
+#banner p {
+  max-width: 700px;
+  margin: auto;
 }
 #services {
   padding-block: 70px 100px;
@@ -117,4 +146,12 @@ li:last-child a:focus {
 #services h2 {
   flex-basis: 100%;
   text-align: center;
+}
+footer {
+  background-color: lightgray;
+  display: flex;
+  min-height: 3rem;
+  padding: 2rem;
+  align-items: center;
+  justify-content: space-between;
 }
