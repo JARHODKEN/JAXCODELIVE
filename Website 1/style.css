@@ -82,3 +82,39 @@ li:last-child a:focus {
   background-color: magenta;
   text-decoration: none;
 }
+#banner {
+  padding-block: 200px;
+  background-color: lightskyblue;
+  /* background-image: url(images/redleaves.jpg);
+  background-size: cover; */
+
+  /* background: linear-gradient(180deg, blue, red); 
+  use background  or background-image */
+}
+#banner .wrapper {
+  text-align: center;
+}
+#services {
+  padding-block: 70px 100px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.card {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  flex-basis: calc(33% - 20px);
+  flex-grow: 1;
+}
+.card i {
+  font-size: 30px;
+  color: blue;
+}
+#services h2 {
+  flex-basis: 100%;
+  text-align: center;
+}
