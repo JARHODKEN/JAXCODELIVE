@@ -60,14 +60,21 @@ button:hover {
   font-size: 28px;
 }
 header {
-  padding: 1.25rem;
+  padding: 2rem;
+}
+.grid-header {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
 }
 .grid-wrapper {
   display: grid;
   grid-template-columns: auto;
-  align-items: center;
 }
-
+.grid-wrapper p {
+  text-align: start;
+  align-self: auto;
+}
 .grid-nav ul {
   display: grid;
   grid-auto-flow: column;
