@@ -152,7 +152,6 @@ li:last-child a:focus {
 footer {
   background-color: lightgray;
   display: flex;
-  min-height: 3rem;
   padding: 2rem;
   align-items: center;
   justify-content: space-between;
